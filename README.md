@@ -68,3 +68,7 @@ Cubic spline interpolation is a mathematical method used to construct a smooth c
 
 - ### **Approach:**
   - Comprehensive: combines visualization, MSE analysis, and auditory feedback.
+
+
+## Results and Plots
+
