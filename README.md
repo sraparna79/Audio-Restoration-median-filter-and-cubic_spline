@@ -72,3 +72,28 @@ Cubic spline interpolation is a mathematical method used to construct a smooth c
 
 ## Results and Plots
 
+#### Degraded Audio
+
+![Degraded Audio](cubic_spline_deg.png)
+
+### Median filter 
+
+   - #### window size =13
+
+![Using Median filter with window size 13](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/e0dde44c-d75f-49f4-a46c-5e14105adf2f)
+
+  - #### window size = 5
+
+
+![Using Median filter with window size 5](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/c7763a57-3b72-4ed4-937c-71908e47d7d7)
+
+   - #### window size = 3
+
+
+![Using Median filter with window size 3](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/7c533f0f-c112-4487-825f-07d4dc4e233b)
+
+### Cubic spline
+
+![Using Cubic spline](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/9141d2f4-83ee-4cd7-ac23-b0fd3e6ac05c)
+
+
