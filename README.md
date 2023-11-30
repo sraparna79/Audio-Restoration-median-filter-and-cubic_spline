@@ -1,4 +1,10 @@
+
 # Audio-Restoration using median filter and cubic_splines
+
+## High-level Description of the project
+This assignment builds on Assignment I. We assume that we have successfully detected the clicks and we are applying different interpolation methods to restore the audio, such as
+- median filtering
+- cubic splines
 
 ## Introduction
 
@@ -116,12 +122,21 @@ Cubic spline interpolation is a mathematical method used to construct a smooth c
 ![Using Median filter with window size 3](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/7c533f0f-c112-4487-825f-07d4dc4e233b)
 
 
+### MSE VS WINDOW SIZE
+
+
+   ![MSE_vd_Window_size](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/8d738516-8ed6-4924-84e9-7a647c4accf2)
+
+
 ### Cubic spline
 The MSE for the Cubic spline is 0.0024111729368456597
-![Using Cubic spline](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/9141d2f4-83ee-4cd7-ac23-b0fd3e6ac05c)
+
+
 
 ## Conclusion
 
-Both the cubic spline interpolation and the median filter have successfully repaired damaged audio, resolving problems like clicks. Impulse noise can be effectively reduced by the median filter, and the smooth reconstruction of deformed or missing samples is guaranteed by cubic spline interpolation. These methods show how effective they are at accomplishing successful audio restoration by visuals, numerical measurements, and audio evaluations.
+Both the cubic spline interpolation and the median filter have successfully repaired damaged audio, resolving problems like clicks. Impulse noise can be effectively reduced by the median filter, and the smooth reconstruction of deformed or missing samples is guaranteed by cubic spline interpolation. These methods show how effective they are at accomplishing successful audio restoration through visuals, numerical measurements, and audio evaluations.
 
+
+## Credits
 
