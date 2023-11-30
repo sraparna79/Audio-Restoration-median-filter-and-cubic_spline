@@ -30,7 +30,7 @@ For more details check [here](https://github.com/bndr/pipreqs)
 
 Afer installing all required packages you can run the demo file simply by typing:
 ```sh
-python Median_filter.py
+python Median_Filter.py
 python cubic_spline.py
 ```
 ---
@@ -115,8 +115,13 @@ Cubic spline interpolation is a mathematical method used to construct a smooth c
      The MSE for this window size is 1.9269091776579117    T
 ![Using Median filter with window size 3](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/7c533f0f-c112-4487-825f-07d4dc4e233b)
 
+
 ### Cubic spline
 The MSE for the Cubic spline is 0.0024111729368456597
 ![Using Cubic spline](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/9141d2f4-83ee-4cd7-ac23-b0fd3e6ac05c)
+
+## Conclusion
+
+Both the cubic spline interpolation and the median filter have successfully repaired damaged audio, resolving problems like clicks. Impulse noise can be effectively reduced by the median filter, and the smooth reconstruction of deformed or missing samples is guaranteed by cubic spline interpolation. These methods show how effective they are at accomplishing successful audio restoration by visuals, numerical measurements, and audio evaluations.
 
 
