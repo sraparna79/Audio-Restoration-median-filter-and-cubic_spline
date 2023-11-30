@@ -151,6 +151,6 @@ Resources:
  - https://pythonnumericalmethods.berkeley.edu/notebooks/chapter17.03-Cubic-Spline-Interpolation.html
  - https://machinelearning1.wordpress.com/2014/07/13/signal-processing-apply-median-filters-python/
  - https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.CubicSpline.html
- - 
+  
 
 
