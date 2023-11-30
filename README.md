@@ -140,3 +140,17 @@ Both the cubic spline interpolation and the median filter have successfully repa
 
 ## Credits
 
+
+This code was developed for purely academic purposes by sraparna79 as part of the Computational Methods (5c22) module. 
+
+Resources:
+
+ - Dr. Libin Mathew Lecture Notes.
+ - Mr. Darren Ramsook and Mr. Vibhoothi for Lecture notes and Python
+ - Changhong Li for calculating Mean squared error.
+ - https://pythonnumericalmethods.berkeley.edu/notebooks/chapter17.03-Cubic-Spline-Interpolation.html
+ - https://machinelearning1.wordpress.com/2014/07/13/signal-processing-apply-median-filters-python/
+ - https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.CubicSpline.html
+ - 
+
+
