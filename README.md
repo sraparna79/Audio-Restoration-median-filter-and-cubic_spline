@@ -12,6 +12,29 @@ After performing AR interpolation in Matlab gave a clear idea regarding the posi
 the clicks and estimated and replaced the value in the place of clicks. The position of the 
 clicks is downloaded from Matlab, which is further used in median filtering and cubic spline.
 
+## Installation and Execution
+
+The library requirements are 
+```sh                                 
+ sklearn.metrics
+ scipy.io
+ numpy
+ scipy.interpolate
+ matlplotlib
+ tqdm
+ playsound
+
+```
+For more details check [here](https://github.com/bndr/pipreqs)
+
+
+Afer installing all required packages you can run the demo file simply by typing:
+```sh
+python Median_filter.py
+python cubic_spline.py
+```
+---
+
 ## Methodology and Results
 ### Audio Restoration using Median Filter
 
@@ -80,21 +103,20 @@ Cubic spline interpolation is a mathematical method used to construct a smooth c
 ### Median filter 
 
    - #### window size =13
-
+     The MSE for this window size is 1.9731936009336652
 ![Using Median filter with window size 13](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/e0dde44c-d75f-49f4-a46c-5e14105adf2f)
 
   - #### window size = 5
-
-
+    The MSE for this window size is 1.9135132955071004. Even though the MSE is lesser than window size 7, the clicks were heard.
+    
 ![Using Median filter with window size 5](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/c7763a57-3b72-4ed4-937c-71908e47d7d7)
 
-   - #### window size = 3
-
-
+   - #### window size = 7
+     The MSE for this window size is 1.9269091776579117    T
 ![Using Median filter with window size 3](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/7c533f0f-c112-4487-825f-07d4dc4e233b)
 
 ### Cubic spline
-
+The MSE for the Cubic spline is 0.0024111729368456597
 ![Using Cubic spline](https://github.com/sraparna79/Audio-Restoration-median-filter-and-cubic_spline/assets/150169608/9141d2f4-83ee-4cd7-ac23-b0fd3e6ac05c)
 
 
